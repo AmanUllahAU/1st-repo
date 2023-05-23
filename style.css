@@ -1,0 +1,360 @@
+@font-face {
+    font-family: sans-font;
+    src: url(./font/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    /* background-color: black; */
+}
+
+.para-1 {
+    background-color: #4a2575;
+    width: 98.5%;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-font;
+    word-spacing: 2px;
+    text-align: center;
+}
+
+.para-1:hover {
+    text-decoration: underline #fff 1px solid;
+    cursor: pointer;
+}
+
+
+
+.upper-part img {
+    width: 150px;
+    margin-left: 600px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.ul-li .li-1,
+.li-2,
+.li-3,
+.li-4,
+a {
+    font-family: sans-font;
+    font-weight: bolder;
+    font-size: 17px;
+    color: #4a2575;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.ul-li-1 {
+    margin-left: -40px;
+}
+
+.ul-li {
+    display: flex;
+    justify-content: space-between;
+}
+
+a,
+ul,
+li {
+    text-decoration: none;
+    display: inline;
+    margin: 5px;
+
+}
+
+.navbar {
+    margin-top: 10px;
+    background-color: #ebe9e9;
+    width: 100%;
+    height: 8vh;
+}
+
+
+
+.navbar .para-2,
+.para-3,
+.para-4,
+.para-5 {
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+    font-family: sans-font;
+    margin: 13px;
+    cursor: pointer;
+}
+
+.navbar .para-2:hover,
+.para-3:hover,
+.para-4:hover,
+.para-5:hover {
+    color: rgb(88, 88, 88);
+
+}
+
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.lower-part img {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+
+.navbar-2 {
+    margin-top: 20px;
+    background-color: #4a2575;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.para-6 {
+    color: white;
+    font-size: 28px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    word-spacing: 2px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.images-div {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+.lower-part-div-1 img,
+.lower-part-div-2 img,
+.lower-part-div-3 img {
+    width: 90%;
+    margin: 20px;
+    border: 1px solid #b1b1b1;
+    cursor: pointer;
+
+}
+
+.lower-part-div-1 img:hover {
+    color: rgb(206, 204, 204, );
+}
+
+
+
+
+.RS-1,
+.RS-2,
+.RS-3 {
+
+    margin-left: 340px;
+    margin-top: -429px;
+    position: absolute;
+    font-size: 11px;
+    font-weight: 100;
+    font-family: sans-serif;
+    background-color: #800000;
+    color: white;
+    width: 70px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+
+
+.AQUA,
+.CRISPY,
+.KOFTA {
+    font-family: sans-font;
+    font-size: 20px;
+    margin-left: 22px;
+    color: #242424;
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+
+
+
+.ingredient-1,
+.ingredient-2,
+.ingredient-3 {
+    color: #242424;
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 22px;
+    cursor: pointer;
+}
+
+
+
+
+.halal-1,
+.halal-2,
+.halal-3 {
+    color: #242424;
+    margin-top: 4px;
+    font-size: 12.8px;
+    font-family: sans-serif;
+    margin-left: 22px;
+    cursor: pointer;
+
+}
+
+.for-cart {
+    margin-left: 22px;
+    background-color: #4a2575;
+    width: 390px;
+    margin-top: 20px;
+    /* height: 2vh; */
+    padding: 8px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.for-cart p {
+    font-size: 21px;
+    font-family: sans-font;
+    color: white;
+}
+
+
+.lower-part-div-1,
+.lower-part-div-2,
+.lower-part-div-3 {
+    background-color: white;
+    /* border: 1px solid black; */
+}
+
+
+.video {
+    position: relative;
+    padding-bottom: 900px;
+    margin-top: -50px;
+    margin-left: 22px;
+    height: 0;
+}
+
+.video video {
+    position: absolute;
+    width: 98%;
+    height: 100%;
+    align-items: center;
+}
+
+.logos img {
+    width: 200px;
+    margin-left: 580px;
+    margin-top: 50px;
+}
+
+
+
+/* .about-us,
+.contact-us,
+.location,
+.term-condition {
+
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+    font-family: sans-font;
+    margin-left: -30px;
+    cursor: pointer;
+} */
+
+
+/* .logos li{
+    display: inline;
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+    font-family: sans-font;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.about-us{
+    margin-left: 100px;
+
+
+} */
+
+
+.privacy-policy{
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 630px;
+    font-family: sans-serif;
+    
+}
+
+
+.©-2023{
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 50px;
+    margin-left: 555px;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
